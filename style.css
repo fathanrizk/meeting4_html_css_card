@@ -1,0 +1,73 @@
+.text{
+    color: blue;
+}
+#footer{
+    color: green;
+}
+
+.card {
+    margin-top: 40px;
+    margin-left: 40px;
+    padding: 30px;
+    background-color: yellow;
+}
+
+.car_card{
+    width: 312px;
+    /* height: 339px; */
+    position: relative;
+    border-radius: 8px;
+    filter: drop-shadow(0px 8px 12px rgba(0, 0, 0, 0.15));
+}
+
+.car_card img {
+    width: 100%;
+}
+
+.car_badge{
+    position: absolute;
+    background:linear-gradient(91.98deg, #60330A 0%, #AF8D58 25.75%, #60330A 100%);
+    border-radius: 0px 0px 16px 0px;
+    padding: 4px 8px;
+}
+
+.car_badge span {
+    font-size: 10px;
+    color: #fefefe;
+    text-transform: uppercase;
+    line-height: 14px;
+    /* font-weight: 600; */
+
+}
+
+.card_content{
+    padding: 16px;
+    height: 164px;
+    background-color: #fefefe;
+}
+
+.card_content p {
+    font-weight: 600;
+    font-size: 16px;
+    color: #032954;
+    margin: 0px 0px 8px;
+}
+
+.card_content span {
+    color: #fe5f00;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card_content button {
+    background-color: #1587d3;
+    color: #fefefe;
+    padding: 12px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+    border-radius: 8px;
+    border: 0px;
+    margin: 30px 0px 0px;
+}
